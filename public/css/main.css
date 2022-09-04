@@ -1,0 +1,354 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.elements{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.background {
+
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 29, 61, 1);
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/v621_26.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  /*opacity: 0.800000011920929;*/
+}
+
+.flexboxfirst {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 50%;
+}
+
+.logocontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 50%;
+  padding: 1px 10px;
+}
+
+.logopic {
+  width: 20%;
+  height: 20%;
+  display: flex;
+  background: url("../images/v621_18.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+}
+
+.sometext {
+  display: flex;
+  justify-content: center;
+  width: 874px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: Regular;
+  font-size: 30px;
+  opacity: 1;
+  text-align: center;
+}
+
+.begintext {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 10%;
+  padding: 0px 10px;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+.logoContainerText{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+  padding: 10px 10px;
+  text-align: center;
+  height:7%;
+}
+.go {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  width: 248px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.inputs{
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  height: 50%;
+  width: auto;
+}
+.options{
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 25%;
+  width: auto;
+}
+#username {
+  font-family: Montserrat;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+  width: 434px;
+  height: 39px;
+  align-items: center;
+  justify-content: center;
+  background: rgba(249, 240, 240, 1);
+  opacity: 1;
+
+  position: absolute;
+
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  overflow: hidden;
+}
+
+#pass {
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  width: 434px;
+  height: 39px;
+  align-items: center;
+  justify-content: center;
+  background: rgba(249, 240, 240, 1);
+  opacity: 1;
+  position: absolute;
+
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  overflow: hidden;
+}
+
+#form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 40%;
+  width: auto;
+  opacity: 1;
+  overflow: hidden;
+  text-align: center;
+}
+
+#returnMessage{
+  
+  width: auto;
+  height: 10%;
+  align-items: center;
+  justify-content: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  opacity:1;
+  text-align:center;
+}
+
+.buttonsContainer{
+  width: 100%;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#form{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width:auto;
+}
+
+.name1{
+  padding: 5px 5px;
+  height: 50%;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.name2{
+  padding: 5px 5px;
+  height: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.click1{
+  
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  padding: 10px 10px;
+}
+.click2{
+  
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  padding: 10px 10px;
+}
+
+
+
+
+
+#login {
+
+  color: rgba(229,229,229,1);
+  cursor: pointer;
+  font-family: Montserrat;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+  text-decoration: none;
+  height: auto;
+
+  background: url("../images/v621_23.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  background: linear-gradient(rgba(26, 55, 130, 1), rgba(26, 55, 130, 0));
+  border: 3px solid rgba(229, 229, 229, 1);
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+  border-bottom-left-radius: 11px;
+  border-bottom-right-radius: 11px;
+  overflow: hidden;
+  margin-right: 60px;
+
+}
+
+#sign {
+  
+  color: rgba(229,229,229,1);
+  cursor: pointer;
+  font-family: Montserrat;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+
+  text-align: center;
+  text-decoration: none;
+  height: auto;
+  margin-left: 340px;
+  
+  background: url("../images/v620_7.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  overflow: hidden;
+
+  background: linear-gradient(rgba(26, 55, 130, 1), rgba(26, 55, 130, 0));
+ 
+  border: 3px solid rgba(229, 229, 229, 1);
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+  border-bottom-left-radius: 11px;
+  border-bottom-right-radius: 11px;
+
+}
+
+.goback {
+  background: url("../images/v621_21.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  width: auto;
+  height: 10%;
+  
+  opacity: 1;
+  position: absolute;
+  
+  margin-left: 10px;
+  overflow: hidden;
+  color: rgba(229,229,229,1);
+  cursor: pointer;
+  font-family: Montserrat;
+  font-weight: Bold;
+  font-size: 20px;
+}
+
+
+
+.backcontainer {
+  align-items: center;
+  display:flex;
+/* /  text-align: center; */
+  height: 10%;
+  width: 100%;
+}
+
