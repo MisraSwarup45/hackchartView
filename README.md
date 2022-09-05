@@ -1,3 +1,5 @@
+<h1><a href="https://chartviewdeploy.herokuapp.com/mainpage.html">Click Here To View the Website</a></h1>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
